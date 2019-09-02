@@ -1,0 +1,19 @@
+body {
+    font-size: 20px;
+}
+p {
+    background-color: aqua;
+    
+}
+#a {
+    background-color: blue;
+}
+.a {
+    background-color: blueviolet;
+}
+p.a {
+    background-color: brown;
+}
+p#a {
+    background-color: burlywood;
+}
