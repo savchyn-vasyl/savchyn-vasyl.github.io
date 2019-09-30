@@ -9,8 +9,8 @@ function add(e) {
     var tasks = document.getElementById("tasks");
     tasks.appendChild(newtask);
 }
-tasks.addEventListener("dblclick", function(e) {
-    e.remove;
+newtask.addEventListener("dblclick", function(e) {
+    e.target.remove;
 }, false);
 
 
