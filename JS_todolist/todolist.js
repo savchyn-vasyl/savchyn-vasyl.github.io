@@ -5,13 +5,13 @@ function add(e) {
     var date = document.getElementById("date");
     var newtask = document.createElement("li"); 
     newtask.innerText = date.value + " " + task.value;
-  
+  newtask.addEventListener("dblclick", function(e) {
+    e.target.remove;
+}, false);
     var tasks = document.getElementById("tasks");
     tasks.appendChild(newtask);
 }
-newtask.addEventListener("dblclick", function(e) {
-    e.target.remove;
-}, false);
+
 
 
 
